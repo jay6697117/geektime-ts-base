@@ -3,8 +3,8 @@
 
 * mindmap：思维导图
 * ppt：课件
-* sourcecode：源代码
++ sourcecode：源代码
 
 # Github源代码
 
-- https://gitee.com/geektime-geekbang/typescript-in-action
++ https://gitee.com/geektime-geekbang/typescript-in-action
