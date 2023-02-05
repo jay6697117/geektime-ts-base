@@ -1,5 +1,5 @@
 // import './datatype';
-
+export default {};
 
 const str: string = 'hello world 666';
 const dom = document.getElementById('root') as HTMLElement;
