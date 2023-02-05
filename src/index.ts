@@ -1,1 +1,2 @@
-import './datatype';
+// import './datatype';
+import './interface';
