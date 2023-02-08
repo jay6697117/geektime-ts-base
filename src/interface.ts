@@ -29,14 +29,31 @@ let result = {
 };
 render(result); */
 
-interface StringArray {
+/* interface StringArray {
   [index: number]: string;
 }
 const arr: StringArray = ['1', '2', '3'];
 console.log('arr :>> ', arr);
 
 interface Names {
-  [x: string]: number;
+  [x: string]: any;
+  [index: number]: number;
 }
-const obj: Names = { a: 1, b: 2, c: 3 };
+let obj: Names = { a: '1', b: '2', c: '3 ' };
+obj = [1, 2, 3];
 console.log('obj :>> ', obj);
+ */
+
+// 1.func
+let addFn: (x: number, y: number) => number = (x: number, y: number): number => x + y;
+console.log('res :>> ', addFn(1, 2));
+// 2.interface
+interface Add1 {
+  (x: number, y: number): number;
+}
+let addFn1: Add1 = (x: number, y: number): number => x + y;
+console.log('res1 :>> ', addFn1(3, 4));
+// 3.type类型别名
+type Add2 = (x: number, y: number) => number;
+let addFn2: Add2 = (x: number, y: number): number => x + y;
+console.log('res2 :>> ', addFn2(5, 6));
