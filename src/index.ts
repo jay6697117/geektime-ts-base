@@ -1,2 +1,3 @@
 // import './datatype';
-import './interface';
+// import './interface';
+import './function';
